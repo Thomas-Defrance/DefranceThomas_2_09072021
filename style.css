@@ -4,7 +4,8 @@ div{
   font-size: 16px;
 }
 .marg-block{
-  margin: 0px;
+  max-width: 1440px;
+  margin: auto;
 }
  
 /* Logo Reservia */
