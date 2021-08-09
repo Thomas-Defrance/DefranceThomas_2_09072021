@@ -991,7 +991,7 @@ margin-top: 0px;
   margin-left: 0px;
 }
 .decorationNone {
-  margin-right: 89px;
+  margin-right: 0px;
 }
 
 /*formulaire*/
@@ -1093,12 +1093,10 @@ margin-top: 0px;
   object-fit: cover;
 }
 .flex-space {
-  display: flex;
   flex-direction: column;
-  margin-left: 6px;
 }
 .border-article {
-  margin-left: 10px;
+  margin-left: 0px;
   background-color:white;
 }
 .borderelements {
@@ -1106,6 +1104,7 @@ margin-top: 0px;
   margin-top: 12px;
   padding-bottom: 13px;
   box-shadow: 0px 0px 9px 2px #e1e1e1;
+  margin: auto;
 }
 .margin-elements {
   margin-top: 2px;
@@ -1127,9 +1126,7 @@ margin-top: 0px;
 .imageborderpop {
   padding-right: 45px;
   width: 78%;
-  margin: initial;
   margin-bottom: 13px;
-  margin-left: 12px;
 }
 .padding-h2 {
   padding-right: 43px;
@@ -1153,27 +1150,19 @@ margin-top: 0px;
   flex-direction: column;
   margin-right: 11px;
   align-items: normal;
-  margin-left: 12px;
+  margin-left: 0px;
   width: 100%;
 }
 .flexbox-none{
   display: initial;
 }
-.width-container-1{
-  width: 93%;
-}
-.width-container-2 {
-  width: 93%;
+.width-container{
+  width: 90%;
+  margin: auto;
 }
 .img-activity-resp{
   width: 100%;
   height: 130px;
-}
-.marg-left {
-  margin-left: 0px;
-}
-.marg-img-block {
-  margin: 17px 0 17px 0;
 }
 .calanque-resp{
   margin-top: 17px;
