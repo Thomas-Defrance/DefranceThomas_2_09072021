@@ -966,15 +966,11 @@ margin-top: 0px;
   margin: 0 0 25px 15px;
   
 }
-.flexAround {
-  justify-content: space-evenly;
-}
 .bordernav {
-  padding: 45px;
   border-bottom: 3px solid blue;
   border-top: none;
-  padding-bottom: 11px;
   margin-left: 0px;
+  padding: 0 35px 11px 35px;
 }
 .pos-responsive{
   position: absolute;
@@ -987,7 +983,7 @@ margin-top: 0px;
 .pos-txt {
   text-decoration: none;
   color: #0065FC;
-  margin-right: 34px;
+  margin-right: 47px;
   margin-left: 0px;
 }
 .decorationNone {
