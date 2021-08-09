@@ -17,9 +17,7 @@ div{
 }
 
 /* Principal */
-.marg-site{
-  margin-left: 25px;
-}
+
 .flexcentre{
   display: flex;
   justify-content: center;
@@ -33,7 +31,6 @@ div{
 .flexAround {
   display: flex; 
   align-items: center;
-  width: 100%;
 }
 .flexB{
  display: flex;
@@ -144,8 +141,14 @@ margin-top: 0px;
   margin-right: 20px;
   border-left: none;
 }
-.animationpulse:hover {  
+
+.animationpulse-filtres:hover{  
   box-shadow: 0 0 0 0 #0065FC;
+  animation: pulse 1.8s infinite;
+}
+
+.animationpulse:hover {  
+  box-shadow: 0 0 0 0 #cbcbbf;
   animation: pulse 1.8s infinite;
 }
 @keyframes pulse {
@@ -277,7 +280,6 @@ margin-top: 0px;
 .border-pop{
   border-radius: 20px;
   background-color: #f2f2f2;
-  width: 85%;
   margin-left: 50px;
   padding-top: 1px;
 }
